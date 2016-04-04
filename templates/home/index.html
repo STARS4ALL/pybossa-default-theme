@@ -34,12 +34,12 @@
             <p>{{ _('It\'s really simple to start contributing.') }}</p>
           </div>
           <div class="span8">
-              <a href="{{url_for('project.index')}}" class="btn btn-info btn-large"><i class="icon-ok-sign"></i>{{ _(' Start Contributing') }}</a> <a href="{{url_for('project.new')}}" class="btn btn-primary btn-large"><i class="icon-plus-sign"></i> {{ _('Create a Project') }}</a>
+              <a href="{{url_for('project.index')}}" class="btn btn-info btn-large"><i class="icon-ok-sign"></i>{{ _(' Start Contributing') }}</a> <a href="{{url_for('project.new')}}" class="btn btn-primary btn-large"><i class="icon-plus-sign"></i> {{ _('Create a Citizen Action') }}</a>
           </div>
       </section>
       
       <section>
-        <h2><i class="icon-th"></i>{{ _('Most Active Projects') }}</h2>
+        <h2><i class="icon-th"></i>{{ _('Most Active Citizen Actions') }}</h2>
         <div class="row">
           {% for project in top_projects %}
           <div class="span3">
