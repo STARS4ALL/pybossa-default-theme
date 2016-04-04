@@ -35,7 +35,7 @@ h3 [class^="icon-"],
 h4 [class^="icon-"],
 h5 [class^="icon-"],
 h6 [class^="icon-"] {
-  color: #8bbf36;
+  color: #e2893a;
   font-size: 1.5em;
   vertical-align: middle;
   margin-right: 5px;
@@ -51,13 +51,13 @@ a[rel="popover"] {
   font-weight: bold;
 }
 .btn-primary {
-  background-color: #8bbf36;
-  background-image: -moz-linear-gradient(top, #b8db80, #8bbf36);
-  background-image: -ms-linear-gradient(top, #b8db80, #8bbf36);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#b8db80), to(#8bbf36));
-  background-image: -webkit-linear-gradient(top, #b8db80, #8bbf36);
-  background-image: -o-linear-gradient(top, #b8db80, #8bbf36);
-  background-image: linear-gradient(top, #ffffff, #8bbf36);
+  background-color: #e2893a;
+  background-image: -moz-linear-gradient(top, #f8a568, #e2893a);
+  background-image: -ms-linear-gradient(top, #f8a568, #e2893a);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f8a568), to(#e2893a));
+  background-image: -webkit-linear-gradient(top, #f8a568, #e2893a);
+  background-image: -o-linear-gradient(top, #f8a568, #e2893a);
+  background-image: linear-gradient(top, #ffffff, #e2893a);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='lighten(@primary, 20%)', endColorstr='@primary', GradientType=0);
   border-color: #516f20 #516f20 #6e972b;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
@@ -68,7 +68,7 @@ a[rel="popover"] {
 .btn-primary.active,
 .btn-primary.disabled,
 .btn-primary[disabled] {
-  background-color: #8bbf36;
+  background-color: #e2893a;
 }
 .btn-info {
   background-color: #4190c2;
@@ -99,7 +99,7 @@ a[rel="popover"] {
   background-color: #4190c2;
 }
 .label-success {
-  background-color: #8bbf36;
+  background-color: #e2893a;
 }
 input:focus,
 textarea:focus,
@@ -136,7 +136,7 @@ body {
 }
 .navbar-fixed-top .navbar-inner,
 .navbar-inner {
-  background: #8bbf36;
+  background: #e2893a;
   filter: none;
   border: none;
   -webkit-box-shadow: none;
@@ -163,13 +163,13 @@ body {
 }
 .navbar .nav > li > a:hover,
 .navbar .nav > li > a:focus {
-  background-color: #a2d058;
+  background-color: #f8a568;
   color: #FFF;
 }
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus {
-  background-color: #add56c;
+  background-color: #f8a568;
   -webkit-box-shadow: none;
   box-shadow: none;
   color: #FFF;
@@ -187,7 +187,7 @@ body {
   vertical-align: top;
 }
 .navbar .btn-navbar {
-  background-color: #8bbf36;
+  background-color: #e2893a;
   background-image: none;
   filter: none;
   border-color: #516f20 #516f20 #6e972b;
@@ -199,7 +199,7 @@ body {
 .navbar .btn-navbar.active,
 .navbar .btn-navbar.disabled,
 .navbar .btn-navbar[disabled] {
-  background-color: #a2d058;
+  background-color: #f8a568;
 }
 .navbar .btn-navbar .icon-bar {
   background-color: #6e972b;
@@ -224,7 +224,7 @@ body {
 }
 .navbar .navbar-form.form-search .btn [class^="icon-"],
 .navbar .navbar-form.form-search .btn [class*=" icon-"] {
-  color: #8bbf36;
+  color: #e2893a;
 }
 .banner {
   background-color: #f7f7f7;
